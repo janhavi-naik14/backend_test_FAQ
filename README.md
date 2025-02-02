@@ -37,7 +37,7 @@ Follow the steps below to set up the development environment and run the project
 
    For Windows:
    ```bash
-   .env\Scriptsctivate
+   .venv\Scripts\activate
    ```
 
 4. **Install the required dependencies:**
