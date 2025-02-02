@@ -19,7 +19,7 @@ Follow the steps below to set up the development environment and run the project
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/your-username/backend_test.git
+   git clone https://github.com/janhavi-naik14/backend_test.git
    cd backend_test
    ```
 
