@@ -59,8 +59,8 @@ The project exposes a simple API to retrieve FAQs. You can access the following 
 ### Available Endpoints
 
 - `GET /api/faq/`: Fetch the list of FAQs in the default language (English).
-- `GET /api/?lang=hi`: Fetch the list of FAQs in Hindi.
-- `GET /api/?lang=bn`: Fetch the list of FAQs in Bengali.
+- `GET /api/faq/?lang=hi`: Fetch the list of FAQs in Hindi.
+- `GET /api/faq/?lang=bn`: Fetch the list of FAQs in Bengali.
 
 ### API Examples
 
@@ -71,12 +71,12 @@ curl http://127.0.0.1:8000/api/faq/
 
 **Fetch FAQ List (Hindi)**  
 ```bash
-curl http://127.0.0.1:8000/api/?lang=hi
+curl http://127.0.0.1:8000/api/faq/?lang=hi
 ```
 
 **Fetch FAQ List (Bengali)**  
 ```bash
-curl http://127.0.0.1:8000/api/?lang=bn
+curl http://127.0.0.1:8000/api/faq/?lang=bn
 ```
 
 ## Testing
